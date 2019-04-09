@@ -33,7 +33,7 @@ var s = "";
 if (fls.f) document.write("您安装了flash,当前flash版本为: " + fls.v + ".x");
 if (!fls.f) {
     if (confirm("您的浏览器未安装Flash插件，现在安装？")) {
-        window.location.href = "http://get.adobe.com/cn/flashplayer/";
+        window.location.href = "https://www.flash.cn/";
         // console.log(1)
     }
 }
